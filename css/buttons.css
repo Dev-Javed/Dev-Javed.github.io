@@ -1,0 +1,98 @@
+.btn, .btn:visited {
+	background: #888 url(../img/grd.png) repeat-x 0 0;
+	display: inline-block;
+	color: #fff  !important;
+	text-decoration: none !important;
+	font-weight: bold;
+	line-height: 1;
+	border: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px 8px 6px;
+	font-size: 11px;
+}
+
+.btn.inverse {
+	background-position:0 -50px; 
+}
+
+.btn.round {
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border-bottom-left-radius: 18px 18px;
+	border-bottom-right-radius: 18px 18px;
+	border-top-left-radius: 18px 18px;
+	border-top-right-radius: 18px 18px;
+	padding: 6px 15px 8px;
+}
+
+.btn:hover {
+	background: #888 url(../img/grd.png) repeat-x 0 -50px;
+}
+
+.btn.inverse:hover {
+	background-position:0 0; 
+}
+
+
+.btn.stripe {
+	background: #888 url(../img/grd2.png) repeat-x 0 0;
+}
+
+.btn.stripe.inverse {
+	background-position:0 -50px; 
+}
+
+.btn.stripe:hover {
+	background: #888 url(../img/grd2.png) repeat-x 0 -50px;
+}
+
+.btn.stripe.inverse:hover {
+	background-position:0 0; 
+}
+
+.btn img {
+	margin:0;
+    padding:0 5px;
+    border:none;
+	display:inline;
+	vertical-align:middle;
+}
+
+.btn.img { 
+	padding: 4px 12px 2px 8px;
+}
+
+.btn.medium {
+	font-size: 13px;
+	padding: 8px 14px 9px;
+}
+.btn.medium.img { padding: 8px 14px 6px 9px; }
+
+.btn.large {
+	font-size: 15px;
+	padding: 11px 20px;
+}
+.btn.large.img { padding: 11px 20px 11px 15px; }
+
+.btn.blue,.btn.blue:hover{ background-color:#11d; }
+.btn.red,.btn.red:hover{ background-color:#a00; }
+.btn.orange,.btn.orange:hover{ background-color:#FF491C; }
+.btn.yellow,.btn.yellow:hover{ background-color:#F8EA46; }
+.btn.babyblue,.btn.babyblue:hover{ background-color:#82D5FF; }
+.btn.lime,.btn.lime:hover{ background-color:#ACE53E; }
+.btn.purple,.btn.purple:hover{ background-color:#B54BEB; }
+.btn.white,.btn.white:hover{ background-color:#eeeeee; }
+.btn.green,.btn.green:hover{ background-color:#280; }
+.btn.brown,.btn.brown:hover{ background-color:#a60; }
+.btn.navy,.btn.navy:hover{ background-color:#369; }
+.btn.pink,.btn.pink:hover{ background-color:#FF3AFB; }
+.btn.blacktext { color:#000 !important; }
+
